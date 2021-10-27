@@ -1,0 +1,20 @@
+{
+  "name": "get-districts",
+  "version": "1.0.0",
+  "description": "nodejs爬取数据获得行政区划信息",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "chaoyu",
+  "license": "MIT",
+  "dependencies": {
+    "async": "^3.2.1",
+    "axios": "^0.23.0",
+    "cheerio": "^1.0.0-rc.10",
+    "iconv-lite": "^0.6.3"
+  }
+}
