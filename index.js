@@ -72,9 +72,6 @@ const cityStr = (html, purl, pid, type) => {
       name,
       url
     })
-    if (type === 'country') {
-      console.log('result', JSON.stringify(result))
-    }
   })
   return result;
 };
